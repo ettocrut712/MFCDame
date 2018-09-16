@@ -183,6 +183,8 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CGrid.h" />
+    <ClInclude Include="CPion.h" />
     <ClInclude Include="MFCDame.h" />
     <ClInclude Include="MFCDameDlg.h" />
     <ClInclude Include="Resource.h" />
@@ -190,6 +192,8 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CGrid.cpp" />
+    <ClCompile Include="CPion.cpp" />
     <ClCompile Include="MFCDame.cpp" />
     <ClCompile Include="MFCDameDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
